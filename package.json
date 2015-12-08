@@ -1,0 +1,28 @@
+{
+  "name": "tweetsaver",
+  "version": "1.0.0",
+  "description": "A node.js script that searches for certain twitter hashtags and saves them into a respective Mongodb collection",
+  "main": "w.js",
+  "dependencies": {
+    "mongojs": "^0.18.2",
+    "twitter-stream-channels": "^0.2.2",
+    "colors": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node w.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikifmak/TweetSaver.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Nikiforos Makrynakis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikifmak/TweetSaver/issues"
+  },
+  "homepage": "https://github.com/nikifmak/TweetSaver#readme"
+}
